@@ -4,22 +4,6 @@ Created on Wed May 13 15:54:26 2020
 
 @author: omer
 """
-"""
-D:/dataset/train
-D:/dataset/valid
-D:/dataset/test
-
-
-bad datasets:
-D:/bad_datasets/NotRealPath
-D:/bad_datasets/חס
-D:/bad_datasets/prime_empty
-D:/bad_datasets/unmatch_sub_folders
-D:/bad_datasets/sub_empty
-D:/bad_datasets/not_fit_pic_kind
-
-
-"""
 
 from MyLibrary.examine_path import Path_Detector
 from  MyLibrary.prepare_data import Generate_data
