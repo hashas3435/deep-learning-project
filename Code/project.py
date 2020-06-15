@@ -19,7 +19,7 @@ categories = ("car", "motorcycle")
 train_batch_size, valid_batch_size = 32, 32
 image_size = (64,64)
 input_shape = image_size + (3,)
-epochs = 1
+epochs = 10
 learning_rate = 0.001 
 
 units = (128, len(categories))
