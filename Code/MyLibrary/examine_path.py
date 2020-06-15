@@ -46,14 +46,7 @@ class Path_Detector:
         while not self.check_primary_folder(path):
             path = input("give the path to {} dataset:\n".format(database_role))
         return path
-        """
-        if database_role == "train": 
-            return "D:/dataset/train"
-        if database_role == "validation": 
-            return "D:/dataset/valid"
-        if database_role == "test": 
-            return "D:/dataset/test"
-        """
+    
     
     def check_primary_folder(self, path):
         if not os.path.isdir(path):
