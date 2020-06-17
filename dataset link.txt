@@ -1,0 +1,5 @@
+Copy the link below in order to being able to download car and motorcycles datasets for train, validation and test in the right format.
+Note: the folder is zipped, thus you need to extract it by using 7 zip. Doing so would allow you to have a valid input for "project" file.
+The link:  
+https://www.kaggle.com/omerhasid/dataset
+
